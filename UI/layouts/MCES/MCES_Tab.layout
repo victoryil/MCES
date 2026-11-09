@@ -1,0 +1,106 @@
+SizeLayoutWidgetClass {
+ Name "TabRoot"
+ AllowHeightOverride 1
+ HeightOverride 46
+ {
+  ButtonWidgetClass "{8D0D64149A7B6CAE}" {
+   Name "TabBtn"
+   Slot AlignableSlot "{430692F19F51A051}" {
+    HorizontalAlign 3
+    VerticalAlign 3
+   }
+   Color 1 1 1 0
+   components {
+    SCR_ModularButtonComponent "{6CF46492E3609631}" : "{7A737AACCAA99F51}Configs/WLib/WLib_ModularButton_ListMenuLine.conf" {
+    }
+   }
+   {
+    OverlayWidgetClass "{A474683637A4266C}" {
+     Name "TabOv"
+     Slot ButtonWidgetSlot "{383C168BDA7189E8}" {
+      HorizontalAlign 3
+      VerticalAlign 3
+     }
+     {
+      ImageWidgetClass "{C21FD6891B00CF16}" {
+       Name "Bg"
+       Slot OverlayWidgetSlot "{DEB6B0D3AD40A0D8}" {
+        HorizontalAlign 3
+        VerticalAlign 3
+       }
+       Color 1 0.78 0.17 0
+      }
+      SizeLayoutWidgetClass "{C984CF87C3380D18}" {
+       Name "StripSize"
+       Slot OverlayWidgetSlot "{19898954BD90716C}" {
+        HorizontalAlign 0
+        VerticalAlign 3
+       }
+       AllowWidthOverride 1
+       WidthOverride 3
+       {
+        ImageWidgetClass "{3AD2C809E9AC1856}" {
+         Name "Strip"
+         Slot AlignableSlot "{9A242462621F226F}" {
+          HorizontalAlign 3
+          VerticalAlign 3
+         }
+         Color 1 0.78 0.17 0
+        }
+       }
+      }
+      HorizontalLayoutWidgetClass "{C253EFE46C86C3DB}" {
+       Name "Row"
+       Slot OverlayWidgetSlot "{644007E3EFB654F9}" {
+        HorizontalAlign 3
+        VerticalAlign 3
+        Padding 14 0 12 0
+       }
+       {
+        ImageWidgetClass "{2E7F7EDC2131C471}" {
+         Name "Icon"
+         Slot LayoutSlot "{070DB971D18F4780}" {
+          VerticalAlign 1
+          Padding 0 0 10 0
+         }
+         Texture "{3BA4B2A75ED412DC}UI/Textures/MCUIK/MCUIK_Icons.imageset"
+         Image "star"
+         Color 0.56 0.63 0.68 1
+         Size 20 20
+        }
+        TextWidgetClass "{6E9C71956DDC5729}" {
+         Name "Label"
+         Slot LayoutSlot "{3F9FC8F9DC7A091F}" {
+          SizeMode Fill
+          VerticalAlign 1
+         }
+         Color 0.91 0.93 0.94 1
+         Text "Categoría"
+         "Font Size" 16
+         "Min Font Size" 10
+         FontProperties FontProperties "{918C647C43CA4819}" {
+          Font "{EABA4FE9D014CCEF}UI/Fonts/RobotoCondensed/RobotoCondensed_Bold.fnt"
+         }
+        }
+        TextWidgetClass "{C234037F2EB68077}" {
+         Name "Count"
+         Slot LayoutSlot "{742FF869056D2061}" {
+          VerticalAlign 1
+          Padding 8 0 0 0
+         }
+         Color 0.56 0.63 0.68 1
+         Text ""
+         "Font Size" 14
+         "Min Font Size" 10
+         FontProperties FontProperties "{4AFEF071B0D9FA5F}" {
+          Font "{EABA4FE9D014CCEF}UI/Fonts/RobotoCondensed/RobotoCondensed_Bold.fnt"
+         }
+        }
+       }
+      }
+     }
+    }
+   }
+  }
+ }
+}

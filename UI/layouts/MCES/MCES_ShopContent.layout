@@ -1,0 +1,280 @@
+FrameWidgetClass {
+ Name "ContentRoot"
+ Slot LayoutSlot "{D2EAC3CEC7E74124}" {
+ }
+ {
+  SizeLayoutWidgetClass "{159B8D7020DCD3E5}" {
+   Name "Size"
+   Slot FrameWidgetSlot "{45FCC7F8C9FD485B}" {
+    Anchor 0.5 0.5 0.5 0.5
+    OffsetLeft 0
+    OffsetTop 0
+    SizeX 1090
+    OffsetRight -1090
+    SizeY 640
+    OffsetBottom -640
+    Alignment 0.5 0.5
+   }
+   AllowMinDesiredWidth 1
+   MinDesiredWidth 1090
+   AllowMinDesiredHeight 1
+   MinDesiredHeight 640
+   {
+    HorizontalLayoutWidgetClass "{2F2447F479FD4376}" {
+     Name "Panes"
+     Slot AlignableSlot "{907269967049B04F}" {
+      HorizontalAlign 3
+      VerticalAlign 3
+     }
+     {
+      SizeLayoutWidgetClass "{B58543E75E44312B}" {
+       Name "TabsSize"
+       Slot LayoutSlot "{9699102513179578}" {
+        VerticalAlign 3
+        Padding 0 0 14 0
+       }
+       AllowWidthOverride 1
+       WidthOverride 200
+       {
+        OverlayWidgetClass "{1211F75F1C102A87}" {
+         Name "TabsOv"
+         Slot AlignableSlot "{CA174327749206D1}" {
+          HorizontalAlign 3
+          VerticalAlign 3
+         }
+         {
+          ImageWidgetClass "{9E316AC22CA66209}" {
+           Name "TabsBg"
+           Slot OverlayWidgetSlot "{88E3465E44D9B8E1}" {
+            HorizontalAlign 3
+            VerticalAlign 3
+           }
+           Color 0.03 0.045 0.058 0.75
+          }
+          ScrollLayoutWidgetClass "{752BD30C0B71AC0B}" {
+           Name "TabsScroll"
+           Slot OverlayWidgetSlot "{A19F96EB1A4642C9}" {
+            HorizontalAlign 3
+            VerticalAlign 3
+           }
+           {
+            VerticalLayoutWidgetClass "{4E9AE0A25E8B89DA}" {
+             Name "Tabs"
+             Slot AlignableSlot "{E410633F8B651FE4}" {
+              HorizontalAlign 3
+              VerticalAlign 0
+              Padding 0 6 0 6
+             }
+            }
+           }
+          }
+         }
+        }
+       }
+      }
+      ScrollLayoutWidgetClass "{4C30765FF966B8EE}" {
+       Name "GridScroll"
+       Slot LayoutSlot "{5C513999302F240A}" {
+        SizeMode Fill
+        Padding 0 0 14 0
+       }
+       {
+        VerticalLayoutWidgetClass "{B8D4CAE6999706B8}" {
+         Name "Grid"
+         Slot AlignableSlot "{B8D220121C5A91D1}" {
+          HorizontalAlign 3
+          VerticalAlign 0
+         }
+        }
+       }
+      }
+      SizeLayoutWidgetClass "{4A299C63C1E4295F}" {
+       Name "DetailSize"
+       Slot LayoutSlot "{A33B2346B43618CA}" {
+        VerticalAlign 3
+       }
+       AllowWidthOverride 1
+       WidthOverride 310
+       {
+        OverlayWidgetClass "{1264BB9AEFCDCC85}" {
+         Name "DetailOv"
+         Slot AlignableSlot "{25DDFF8E1FF25FDB}" {
+          HorizontalAlign 3
+          VerticalAlign 3
+         }
+         {
+          ImageWidgetClass "{FB398427D654DB14}" {
+           Name "DetailBg"
+           Slot OverlayWidgetSlot "{66D1F51B9DCA9E8F}" {
+            HorizontalAlign 3
+            VerticalAlign 3
+           }
+           Color 0.055 0.078 0.098 0.9
+          }
+          SizeLayoutWidgetClass "{66F7E659AAF85600}" {
+           Name "DetailStripSize"
+           Slot OverlayWidgetSlot "{B31D6D064DF1F61E}" {
+            HorizontalAlign 3
+            VerticalAlign 0
+           }
+           AllowHeightOverride 1
+           HeightOverride 3
+           {
+            ImageWidgetClass "{EE7AE67BAFF9EB2E}" {
+             Name "DetailStrip"
+             Slot AlignableSlot "{0EC5FDB1B2DF8955}" {
+              HorizontalAlign 3
+              VerticalAlign 3
+             }
+             Color 1 0.78 0.17 1
+            }
+           }
+          }
+          VerticalLayoutWidgetClass "{D5A0716413FAE45E}" {
+           Name "Detail"
+           Slot OverlayWidgetSlot "{B6108B43D07513D7}" {
+            HorizontalAlign 3
+            VerticalAlign 0
+            Padding 16 16 16 16
+           }
+           {
+            SizeLayoutWidgetClass "{671BD1877C54E5AC}" {
+             Name "BigPreviewSize"
+             Slot LayoutSlot "{9538DF003192CD42}" {
+              Padding 0 0 0 12
+             }
+             AllowWidthOverride 1
+             WidthOverride 278
+             AllowHeightOverride 1
+             HeightOverride 160
+             {
+              OverlayWidgetClass "{9452D2AB177393B4}" {
+               Name "BigPreviewOv"
+               Slot AlignableSlot "{D1234C0EFFFBA250}" {
+                HorizontalAlign 3
+                VerticalAlign 3
+               }
+               {
+                ImageWidgetClass "{F43799ADD7193612}" {
+                 Name "BigPreviewBg"
+                 Slot OverlayWidgetSlot "{8AF55328CFB978F3}" {
+                  HorizontalAlign 3
+                  VerticalAlign 3
+                 }
+                 Color 1 1 1 0.05
+                }
+                ItemPreviewWidgetClass "{D74E8B9428BE01A9}" {
+                 Name "BigPreview"
+                 Slot OverlayWidgetSlot "{92E40B1534DE1C52}" {
+                  HorizontalAlign 3
+                  VerticalAlign 3
+                 }
+                }
+                ImageWidgetClass "{A97A96529BDE72FE}" {
+                 Name "BigIcon"
+                 Slot OverlayWidgetSlot "{FAA87F3807DB423A}" {
+                  HorizontalAlign 1
+                  VerticalAlign 1
+                 }
+                 Texture "{3BA4B2A75ED412DC}UI/Textures/MCUIK/MCUIK_Icons.imageset"
+                 Image "shop"
+                 Color 1 0.78 0.17 1
+                 Size 64 64
+                }
+               }
+              }
+             }
+            }
+            TextWidgetClass "{4070E9D030A309B0}" {
+             Name "DCat"
+             Slot LayoutSlot "{C863008DB20296AA}" {
+              Padding 0 0 0 2
+             }
+             Color 1 0.78 0.17 1
+             Text "CATEGORÍA"
+             "Font Size" 13
+             "Min Font Size" 10
+             FontProperties FontProperties "{CED4FF14F460B59F}" {
+              Font "{EABA4FE9D014CCEF}UI/Fonts/RobotoCondensed/RobotoCondensed_Bold.fnt"
+             }
+            }
+            RichTextWidgetClass "{0485EAD97B7095C6}" {
+             Name "DName"
+             Color 0.91 0.93 0.94 1
+             Text "Elige algo"
+             "Font Size" 24
+             "Min Font Size" 18
+             Wrap 1
+             FontProperties FontProperties "{23723A618E3A51BB}" {
+              Font "{EABA4FE9D014CCEF}UI/Fonts/RobotoCondensed/RobotoCondensed_Bold.fnt"
+             }
+            }
+            HorizontalLayoutWidgetClass "{7BF7D105933D2FDF}" {
+             Name "DPriceRow"
+             Slot LayoutSlot "{5BCFD3769C47299D}" {
+              Padding 0 6 0 8
+             }
+             {
+              ImageWidgetClass "{F43B6CC802A03370}" {
+               Name "DPriceIcon"
+               Slot LayoutSlot "{0BBB3D7CA880330D}" {
+                VerticalAlign 1
+                Padding 0 0 8 0
+               }
+               Texture "{3BA4B2A75ED412DC}UI/Textures/MCUIK/MCUIK_Icons.imageset"
+               Image "money"
+               Color 1 0.78 0.17 1
+               Size 22 22
+              }
+              TextWidgetClass "{9501D4B94432136B}" {
+               Name "DPrice"
+               Slot LayoutSlot "{903869EDEF1A252E}" {
+                VerticalAlign 1
+               }
+               Color 1 0.78 0.17 1
+               Text ""
+               "Font Size" 28
+               "Min Font Size" 22
+               FontProperties FontProperties "{6B31AC53FD8ADE49}" {
+                Font "{EABA4FE9D014CCEF}UI/Fonts/RobotoCondensed/RobotoCondensed_Bold.fnt"
+               }
+              }
+             }
+            }
+            RichTextWidgetClass "{1F8659AA2F9DDF20}" {
+             Name "DDesc"
+             Color 0.56 0.63 0.68 1
+             Text "Haz clic en una tarjeta para ver qué es y cuánto cuesta."
+             "Font Size" 16
+             "Min Font Size" 10
+             Wrap 1
+             FontProperties FontProperties "{0B9F3D174DF42997}" {
+              Font "{3E7733BAC8C831F6}UI/Fonts/RobotoCondensed/RobotoCondensed_Regular.fnt"
+             }
+            }
+            RichTextWidgetClass "{5A32FAFBCE731CB3}" {
+             Name "DState"
+             Slot LayoutSlot "{95A9C096AB721FB0}" {
+              Padding 0 12 0 0
+             }
+             Color 0.91 0.93 0.94 1
+             Text ""
+             "Font Size" 16
+             "Min Font Size" 10
+             Wrap 1
+             FontProperties FontProperties "{D86A1EC7BC92C416}" {
+              Font "{EABA4FE9D014CCEF}UI/Fonts/RobotoCondensed/RobotoCondensed_Bold.fnt"
+             }
+            }
+           }
+          }
+         }
+        }
+       }
+      }
+     }
+    }
+   }
+  }
+ }
+}

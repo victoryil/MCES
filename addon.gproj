@@ -1,0 +1,24 @@
+GameProject {
+ ID "MCES"
+ GUID "AE9A7FAB88A56E07"
+ TITLE "MCES - Modern Common Economy & Shop"
+ Dependencies {
+  "58D0FB3206B6F859"
+  "B8DFCB8639E9DA37"
+ }
+ Configurations {
+  GameProjectConfig PC {
+  }
+  GameProjectConfig XBOX_ONE {
+  }
+  GameProjectConfig XBOX_SERIES {
+  }
+  GameProjectConfig PS4 {
+  }
+  GameProjectConfig PS5 {
+   PlatformHardware PS5
+  }
+  GameProjectConfig HEADLESS {
+  }
+ }
+}

@@ -1,0 +1,161 @@
+SizeLayoutWidgetClass {
+ Name "CardRoot"
+ AllowWidthOverride 1
+ WidthOverride 176
+ AllowHeightOverride 1
+ HeightOverride 196
+ {
+  ButtonWidgetClass "{62355B7039890159}" {
+   Name "CardBtn"
+   Slot AlignableSlot "{E3488EE1EDC28E74}" {
+    HorizontalAlign 3
+    VerticalAlign 3
+   }
+   Color 1 1 1 0
+   components {
+    SCR_ModularButtonComponent "{4C954E6EF1A44276}" : "{7A737AACCAA99F51}Configs/WLib/WLib_ModularButton_ListMenuLine.conf" {
+    }
+   }
+   {
+    OverlayWidgetClass "{19997BD9A1F8F8ED}" {
+     Name "CardOv"
+     Slot ButtonWidgetSlot "{B17EC87F91C2A8E7}" {
+      HorizontalAlign 3
+      VerticalAlign 3
+     }
+     {
+      ImageWidgetClass "{2602752FB58BCCCB}" {
+       Name "Bg"
+       Slot OverlayWidgetSlot "{872F05E40AA06323}" {
+        HorizontalAlign 3
+        VerticalAlign 3
+       }
+       Color 0.07 0.1 0.125 0.92
+      }
+      SizeLayoutWidgetClass "{9CA7028E8F7AD94E}" {
+       Name "StripSize"
+       Slot OverlayWidgetSlot "{CDEDB0277B172DB8}" {
+        HorizontalAlign 3
+        VerticalAlign 2
+       }
+       AllowHeightOverride 1
+       HeightOverride 3
+       {
+        ImageWidgetClass "{C671FAE7F4659C2E}" {
+         Name "Strip"
+         Slot AlignableSlot "{9B3FFB9156BFC781}" {
+          HorizontalAlign 3
+          VerticalAlign 3
+         }
+         Color 1 0.78 0.17 0
+        }
+       }
+      }
+      VerticalLayoutWidgetClass "{E4516A7D17F8534C}" {
+       Name "Col"
+       Slot OverlayWidgetSlot "{9D14B495CEF76EC7}" {
+        HorizontalAlign 3
+        VerticalAlign 3
+        Padding 10 10 10 10
+       }
+       {
+        SizeLayoutWidgetClass "{EE16F71125FACA52}" {
+         Name "PreviewSize"
+         Slot LayoutSlot "{6A052612E1179CD9}" {
+          Padding 0 0 0 8
+         }
+         AllowWidthOverride 1
+         WidthOverride 156
+         AllowHeightOverride 1
+         HeightOverride 92
+         {
+          OverlayWidgetClass "{2CC0C27B0B58E3A2}" {
+           Name "PreviewOv"
+           Slot AlignableSlot "{479962A62845E1C1}" {
+            HorizontalAlign 3
+            VerticalAlign 3
+           }
+           {
+            ImageWidgetClass "{C6A76FC8F394BF1E}" {
+             Name "PreviewBg"
+             Slot OverlayWidgetSlot "{53E55BF30952EBB7}" {
+              HorizontalAlign 3
+              VerticalAlign 3
+             }
+             Color 1 1 1 0.05
+            }
+            ItemPreviewWidgetClass "{2C9F826322D1C37F}" {
+             Name "Preview"
+             Slot OverlayWidgetSlot "{728CEC682BFECE2E}" {
+              HorizontalAlign 3
+              VerticalAlign 3
+             }
+            }
+            ImageWidgetClass "{7A3538F4F9556FDE}" {
+             Name "Icon"
+             Slot OverlayWidgetSlot "{129BCB9227A65867}" {
+              HorizontalAlign 1
+              VerticalAlign 1
+             }
+             Texture "{3BA4B2A75ED412DC}UI/Textures/MCUIK/MCUIK_Icons.imageset"
+             Image "shop"
+             Color 1 0.78 0.17 1
+             Size 40 40
+            }
+           }
+          }
+         }
+        }
+        RichTextWidgetClass "{9841D6337005ADA9}" {
+         Name "Name"
+         Color 0.91 0.93 0.94 1
+         Text "Artículo"
+         "Font Size" 16
+         "Min Font Size" 10
+         Wrap 1
+         FontProperties FontProperties "{20BFDBC664EC8B4B}" {
+          Font "{EABA4FE9D014CCEF}UI/Fonts/RobotoCondensed/RobotoCondensed_Bold.fnt"
+         }
+        }
+        HorizontalLayoutWidgetClass "{EE2ADBA22C475025}" {
+         Name "PriceRow"
+         Slot LayoutSlot "{F5DFB0BE1FF3C9B3}" {
+          HorizontalAlign 3
+          VerticalAlign 2
+          Padding 0 4 0 0
+         }
+         {
+          TextWidgetClass "{4A7B3A41DB06B62D}" {
+           Name "Price"
+           Slot LayoutSlot "{BC485C41CBF77DA8}" {
+            SizeMode Fill
+            VerticalAlign 1
+           }
+           Color 1 0.78 0.17 1
+           Text "0 €"
+           "Font Size" 18
+           "Min Font Size" 12
+           FontProperties FontProperties "{D49D7202F0FA0B39}" {
+            Font "{EABA4FE9D014CCEF}UI/Fonts/RobotoCondensed/RobotoCondensed_Bold.fnt"
+           }
+          }
+          ImageWidgetClass "{BFA9341A8E4ABECB}" {
+           Name "Lock"
+           Slot LayoutSlot "{AF60DECC73A1BC27}" {
+            VerticalAlign 1
+           }
+           Texture "{3BA4B2A75ED412DC}UI/Textures/MCUIK/MCUIK_Icons.imageset"
+           Image "lock"
+           Color 0.56 0.63 0.68 1
+           Size 16 16
+          }
+         }
+        }
+       }
+      }
+     }
+    }
+   }
+  }
+ }
+}
