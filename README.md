@@ -64,3 +64,7 @@ class MiProveedor : MCES_ShopProvider
 ```
 
 Reconquista Canaria lo usa así en `RC_ShopProvider.c`: el catálogo viene de su `RC_Catalog`, lo que se desbloquea depende de la historia y la compra va por su `RC_Requests`.
+
+## Licencia
+
+[MIT](LICENSE): puedes usarlo, modificarlo y redistribuirlo (también en tus mods) manteniendo el aviso de copyright.

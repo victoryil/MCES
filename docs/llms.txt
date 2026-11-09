@@ -15,6 +15,7 @@ Key facts for agents:
 
 
 ## Links
+- License: MIT (https://github.com/victoryil/MCES/blob/main/LICENSE)
 - Workshop: https://reforger.armaplatform.com/workshop/AE9A7FAB88A56E07
 - Source code: https://github.com/victoryil/MCES
 - Docs website: https://victoryil.github.io/MCES/

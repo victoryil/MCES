@@ -17,4 +17,4 @@ gh_edit_repository: "https://github.com/victoryil/MCES"
 gh_edit_branch: "main"
 gh_edit_source: docs
 gh_edit_view_mode: "tree"
-footer_content: "MCES · <a href=\"https://reforger.armaplatform.com/workshop/AE9A7FAB88A56E07\">Workshop</a> · <a href=\"https://github.com/victoryil/MCES\">Código en GitHub</a> · <a href=\"https://github.com/victoryil/MCES/blob/main/llms.txt\">llms.txt</a> (resumen para IA)"
+footer_content: "MCES · <a href=\"https://reforger.armaplatform.com/workshop/AE9A7FAB88A56E07\">Workshop</a> · <a href=\"https://github.com/victoryil/MCES\">Código en GitHub</a> · <a href=\"https://github.com/victoryil/MCES/blob/main/llms.txt\">llms.txt</a> (resumen para IA) · Licencia <a href=\"https://github.com/victoryil/MCES/blob/main/LICENSE\">MIT</a>"
