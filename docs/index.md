@@ -3,6 +3,8 @@ title: Inicio
 nav_order: 1
 ---
 
+![Portada](assets/portada.png)
+
 # MCES · Modern Common Economy & Shop
 
 Tienda configurable para misiones de **Arma Reforger**. Tú pones el catálogo y tu economía; MCES pone:
