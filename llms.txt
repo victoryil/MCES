@@ -1,0 +1,26 @@
+# MCES - Modern Common Economy & Shop
+
+> Configurable shop for Arma Reforger missions (Enforce Script). Mod GUID AE9A7FAB88A56E07; depends on MCUIK (B8DFCB8639E9DA37).
+> - **The shop window:** category tabs, cards with a 3D item preview, and a detail panel.
+> - **Networking:** client purchase request → server → reply to that player only.
+> - **The mission's part:** the catalog (.conf MCES_ShopConfig or script) and a provider class that holds its economy.
+> The documentation is in Spanish.
+
+Key facts for agents:
+- Subclass MCES_ShopProvider. Register it with MCES_Shop.SetProvider(new X()) on BOTH server and clients.
+- Buy(pid, player, shopId, itemId, source, out msg) runs on the SERVER and is the only source of truth. It must validate the item, its locked state, the server-side price, the balance and the distance to the seller, then charge and deliver.
+- GetBalance() runs on the client and must read a replicated value.
+- Open the shop on the client with MCES_Shop.Open(shopId, sellerEntity).
+- MCES_Item.m_sId is what travels over the network. Copy prefab GUIDs from real resources; never invent them.
+
+## Docs
+- [Inicio](docs/index.md): overview and data flow diagram.
+- [Empezar](docs/empezar.md): dependencies, .conf format, minimal provider, register and open.
+- [Catálogo](docs/catalogo.md): MCES_Category / MCES_Item fields, script catalog, locked items, extra actions.
+- [Proveedor](docs/proveedor.md): every provider method, where it runs, security, delivery examples.
+- [La ventana](docs/ventana.md): widget names, behaviour, customising layouts, test hooks.
+- [Guía para IA](docs/guia-ia.md): step-by-step recipe and rules.
+- [API](docs/api.md): generated reference.
+
+## Related
+- MCUIK - Modern Common UI Kit (UI pieces, icons, notifications): its own llms.txt and docs/.

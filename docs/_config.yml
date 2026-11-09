@@ -1,0 +1,11 @@
+title: MCES · Modern Common Economy & Shop
+description: Tienda y economía configurables para misiones de Arma Reforger.
+remote_theme: just-the-docs/just-the-docs@v0.10.1
+plugins:
+  - jekyll-remote-theme
+color_scheme: dark
+search_enabled: true
+heading_anchors: true
+aux_links:
+  "MCUIK (kit de interfaz)": "../MCUIK/"
+footer_content: "MCES · documentación para personas y para IA. Ver también <code>llms.txt</code> en la raíz del repositorio."

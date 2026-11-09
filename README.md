@@ -1,5 +1,8 @@
 # MCES – Modern Common Economy & Shop
 
+> 📖 **Documentación completa** (para personas y para IA): carpeta [`docs/`](docs/index.md), publicable como GitHub Pages. Resumen para modelos de lenguaje: [`llms.txt`](llms.txt). Asistentes de IA: empezad por [`docs/guia-ia.md`](docs/guia-ia.md).
+
+
 Tienda configurable para misiones de Arma Reforger. La ventana tiene tres partes:
 - pestañas por categoría con icono;
 - tarjetas con vista 3D del objeto;
