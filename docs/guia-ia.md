@@ -7,6 +7,14 @@ nav_order: 6
 
 Receta para montar una tienda con MCES en una misión de Arma Reforger (Enforce Script).
 
+
+## Dónde está todo
+
+- Workshop: https://reforger.armaplatform.com/workshop/AE9A7FAB88A56E07 (GUID `AE9A7FAB88A56E07`, versión publicada 1.0.0)
+- Código y documentación en Markdown: https://github.com/victoryil/MCES (rama `main`, carpeta `docs/`)
+- Resumen para modelos: https://github.com/victoryil/MCES/blob/main/llms.txt
+- Web: https://victoryil.github.io/MCES/
+
 ## Pasos
 
 1. **Dependencias.** Añade `"B8DFCB8639E9DA37"` (MCUIK) y `"AE9A7FAB88A56E07"` (MCES) al `addon.gproj`.

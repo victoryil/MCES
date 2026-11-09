@@ -1,5 +1,7 @@
 # MCES – Modern Common Economy & Shop
 
+> 🧩 **Workshop:** https://reforger.armaplatform.com/workshop/AE9A7FAB88A56E07 · **Docs:** https://victoryil.github.io/MCES/ · **Código:** https://github.com/victoryil/MCES
+
 > 📖 **Documentación completa** (para personas y para IA): carpeta [`docs/`](docs/index.md), publicable como GitHub Pages. Resumen para modelos de lenguaje: [`llms.txt`](llms.txt). Asistentes de IA: empezad por [`docs/guia-ia.md`](docs/guia-ia.md).
 
 

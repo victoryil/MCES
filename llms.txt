@@ -13,14 +13,21 @@ Key facts for agents:
 - Open the shop on the client with MCES_Shop.Open(shopId, sellerEntity).
 - MCES_Item.m_sId is what travels over the network. Copy prefab GUIDs from real resources; never invent them.
 
+
+## Links
+- Workshop: https://reforger.armaplatform.com/workshop/AE9A7FAB88A56E07
+- Source code: https://github.com/victoryil/MCES
+- Docs website: https://victoryil.github.io/MCES/
+- Raw Markdown docs: https://github.com/victoryil/MCES/tree/main/docs
+
 ## Docs
-- [Inicio](docs/index.md): overview and data flow diagram.
-- [Empezar](docs/empezar.md): dependencies, .conf format, minimal provider, register and open.
-- [Catálogo](docs/catalogo.md): MCES_Category / MCES_Item fields, script catalog, locked items, extra actions.
-- [Proveedor](docs/proveedor.md): every provider method, where it runs, security, delivery examples.
-- [La ventana](docs/ventana.md): widget names, behaviour, customising layouts, test hooks.
-- [Guía para IA](docs/guia-ia.md): step-by-step recipe and rules.
-- [API](docs/api.md): generated reference.
+- [Inicio](https://github.com/victoryil/MCES/blob/main/docs/index.md): overview and data flow diagram.
+- [Empezar](https://github.com/victoryil/MCES/blob/main/docs/empezar.md): dependencies, .conf format, minimal provider, register and open.
+- [Catálogo](https://github.com/victoryil/MCES/blob/main/docs/catalogo.md): MCES_Category / MCES_Item fields, script catalog, locked items, extra actions.
+- [Proveedor](https://github.com/victoryil/MCES/blob/main/docs/proveedor.md): every provider method, where it runs, security, delivery examples.
+- [La ventana](https://github.com/victoryil/MCES/blob/main/docs/ventana.md): widget names, behaviour, customising layouts, test hooks.
+- [Guía para IA](https://github.com/victoryil/MCES/blob/main/docs/guia-ia.md): step-by-step recipe and rules.
+- [API](https://github.com/victoryil/MCES/blob/main/docs/api.md): generated reference.
 
 ## Related
 - MCUIK - Modern Common UI Kit (UI pieces, icons, notifications): its own llms.txt and docs/.

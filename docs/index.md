@@ -19,6 +19,17 @@ Tienda configurable para misiones de **Arma Reforger**. Tú pones el catálogo y
 
 ![Tienda hecha con MCES](assets/tienda.png)
 
+
+## Enlaces
+
+| | |
+|---|---|
+| Workshop (suscribirse / dependencia) | [https://reforger.armaplatform.com/workshop/AE9A7FAB88A56E07](https://reforger.armaplatform.com/workshop/AE9A7FAB88A56E07) |
+| Código fuente | [https://github.com/victoryil/MCES](https://github.com/victoryil/MCES) |
+| Esta documentación | [https://victoryil.github.io/MCES/](https://victoryil.github.io/MCES/) |
+| Resumen para IA | [https://github.com/victoryil/MCES/blob/main/llms.txt](https://github.com/victoryil/MCES/blob/main/llms.txt) |
+| Documentación en Markdown (para leer sin la web) | [https://github.com/victoryil/MCES/tree/main/docs](https://github.com/victoryil/MCES/tree/main/docs) |
+
 ## Cómo encaja
 
 ```
